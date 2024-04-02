@@ -2844,6 +2844,14 @@ div.globalFooterCard.card-radar {
     height: inherit;
   }
 }
+@media screen and (max-width: 700px) {
+  .Company_video {
+    height: 50vh !important;
+  }
+  .globalNav .popupContainer {
+    height: 75vh;
+  }
+}
 .services {
   position: relative;
   font-family: var(--font-f);
