@@ -73,3 +73,9 @@
     }
 
 }
+
+@media screen and (max-width:550px) {
+    .globalNav .popupContainer {
+        height: 50vh;
+    }
+}

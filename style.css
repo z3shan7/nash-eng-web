@@ -2852,6 +2852,11 @@ div.globalFooterCard.card-radar {
     height: 75vh;
   }
 }
+@media screen and (max-width: 550px) {
+  .globalNav .popupContainer {
+    height: 50vh;
+  }
+}
 .services {
   position: relative;
   font-family: var(--font-f);
