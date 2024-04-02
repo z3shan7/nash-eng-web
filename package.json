@@ -1,0 +1,27 @@
+{
+  "name": "nash-website",
+  "version": "1.0.0",
+  "description": "A Company website",
+  "main": "index.js",
+  "scripts": {
+    "watch": "sass sass/main.scss style.css -w",
+    "compile": "node-sass sass/main.scss style.comp.css",
+    "concat": "concat -o style.concat.css style.comp.css",
+    "prefix": "postcss --use autoprefixer -b 'last 10 versions' style.concat.css -o style.prefix.css",
+    "compress": "sass style.prefix.css style.css --output-style compressed",
+    "devServer": "live-server"
+  },
+  "keywords": [],
+  "author": "Shoaib Zeeshan",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.71.1"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.19",
+    "concat": "^1.0.3",
+    "live-server": "^1.1.0",
+    "postcss-cli": "^11.0.0",
+    "prefix": "^1.0.0"
+  }
+}

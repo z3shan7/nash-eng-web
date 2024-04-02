@@ -1,0 +1,46 @@
+.services {
+    position: relative;
+    font-family: var(--font-f);
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5));
+    padding-top: 3rem;
+
+
+
+
+    &__video {
+        z-index: -1;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    &__title {
+        font-size: 2.5rem;
+        font-family: var(--font-f);
+        color: #fffdfd;
+        position: relative;
+        margin-bottom: 40px;
+        font-family: var(--font-clr);
+        text-align: center;
+        letter-spacing: 0.5px;
+        
+        // font-weight: 400;
+
+        // z-index: -1;
+
+    }
+
+    &__title::after {
+        content: "";
+        height: 5px;
+        background-color: var(--font-clr);
+        width: 50px;
+        position: absolute;
+        bottom: -15px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+}
