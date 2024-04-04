@@ -70,6 +70,8 @@
         // gap: 20px;
         // justify-content: space-between;
         align-items: flex-start;
+        border-bottom: .5px solid rgba(0, 0, 0, .1);
+        padding-bottom: 1.5rem;
     }
 
     &__col-1> :nth-child(1) {
@@ -101,6 +103,8 @@
     &__col-2 span:hover i {
         transform: translateX(5px);
     }
+
+
 
     &__block {
         display: flex;
@@ -177,7 +181,7 @@
 
     }
 
-    &__col-3 span i {
+    &__col-4 span i {
         color: var(--font-clr);
         font-size: 15px;
         margin-right: 10px;

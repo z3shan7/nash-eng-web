@@ -3490,6 +3490,8 @@ span.text {
   margin-bottom: 1.8rem;
   display: flex;
   align-items: flex-start;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 1.5rem;
 }
 .footer__col-1 > :nth-child(1) {
   flex-basis: 50%;
@@ -3567,7 +3569,7 @@ span.text {
   transition: all 500ms ease;
   cursor: pointer;
 }
-.footer__col-3 span i {
+.footer__col-4 span i {
   color: var(--font-clr);
   font-size: 15px;
   margin-right: 10px;
