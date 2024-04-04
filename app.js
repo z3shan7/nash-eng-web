@@ -257,7 +257,7 @@ Strut.isRetina = window.devicePixelRatio > 1.3, Strut.mobileViewportWidth = 670,
 
 
 
-
+// Record Section
 
 
 
@@ -325,19 +325,4 @@ text.innerHTML = text.innerText
 
 
 
-const col = document.getElementById("column");
-// const showNav = document.getElementById("navSec");
-const showNav = document.querySelector('.mobile')
-const footNav = document.querySelector('.globalFooterNav')
 
-console.log(showNav)
-console.log(footNav)
-
-
-// console.log(globalPopupActive)
-if (showNav.classList.contains('globalPopupActive')) {
-    console.log('hello')
-
-}
-
-// console.log(col)

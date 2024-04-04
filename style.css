@@ -211,11 +211,6 @@
   pointer-events: auto;
 }
 
-.swiper-button-next:after,
-.swiper-button-prev:after {
-  display: none;
-}
-
 .swiper-button-next i,
 .swiper-button-prev i {
   font-size: 16px;
@@ -235,13 +230,13 @@
 
 .swiper-button-next,
 .swiper-button-prev {
-  visibility: visible;
+  visibility: hidden;
 }
 
 @media only screen and (max-width: 850px) {
   .swiper-button-next,
   .swiper-button-prev {
-    visibility: hidden;
+    visibility: visible;
   }
 }
 *,
