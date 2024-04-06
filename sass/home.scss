@@ -243,17 +243,10 @@
 }
 
 
-// .swiper-button-next:after,
-// .swiper-button-prev:after {
-//     display: none;
-
-
-// }
-
 .swiper-button-next i,
 .swiper-button-prev i {
     font-size: 16px;
-    background-color: rgba($color: #000000, $alpha: 0.6);
+    background-color: rgba($color: #000000, $alpha: 0.3);
     color: #fff;
     padding: .7rem .7rem;
     border-radius: 18px;
@@ -273,11 +266,18 @@
 .swiper-button-next,
 .swiper-button-prev {
 
+    // visibility: hidden;
     visibility: hidden;
 
 
 }
 
+.swiper-button-next::after,
+.swiper-button-prev::after {
+
+    display: none;
+
+}
 
 @media only screen and (max-width: 850px) {
 
@@ -285,8 +285,7 @@
     .swiper-button-prev {
         visibility: visible;
 
+
     }
-
-
 
 }
