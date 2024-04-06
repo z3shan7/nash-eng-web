@@ -3124,28 +3124,6 @@ div.globalFooterCard.card-radar {
   line-height: 25px;
 }
 
-@media screen and (max-width: 950px) {
-  .presentation__heading {
-    font-size: 2rem;
-  }
-  .presentation__para {
-    font-size: 13px;
-    line-height: 20px;
-  }
-}
-@media screen and (max-width: 700px) {
-  .presentation__content {
-    flex-direction: column;
-    gap: 30px;
-  }
-  .presentation__heading {
-    font-size: 2rem;
-  }
-  .presentation__para {
-    font-size: 15px;
-    width: 100%;
-  }
-}
 .presentation__btn {
   cursor: pointer;
   font-family: Helvetica, "sans-serif";
@@ -3187,6 +3165,31 @@ iframe {
   border-radius: 18px;
 }
 
+@media screen and (max-width: 950px) {
+  .presentation__heading {
+    font-size: 2rem;
+  }
+  .presentation__para {
+    font-size: 13px;
+    line-height: 20px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .presentation__content {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .presentation__heading {
+    font-size: 2rem;
+  }
+  .presentation__para {
+    font-size: 15px;
+    width: 100%;
+  }
+  .presentation__btn {
+    font-size: 12px;
+  }
+}
 .Certifications {
   background-color: var(--bg-lite);
   font-family: var(--font-f);
