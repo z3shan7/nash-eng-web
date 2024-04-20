@@ -3599,7 +3599,7 @@ span.text {
 .footer__btn {
   position: absolute;
   left: 45%;
-  bottom: 10px;
+  bottom: 0px;
   transform: translate(-50% -50%);
 }
 
